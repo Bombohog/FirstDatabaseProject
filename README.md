@@ -4,7 +4,6 @@ Here is the first SQLite project i made.
 
 ### Here are some commands i wrote into the console after the first commit:
 
-´´´java
 INSERT INTO Opskrifter (navn, fremgangsmaade, billede) VALUES ('Kylling i karry', 'Lav kyllingen, bagefter lav karry sovsen og tilsæt ris efter.', 'Kylling_i_karry.png');
 
 INSERT INTO Opskrifter (navn, fremgangsmaade, billede) VALUES ('Oriental Rice', 'Brun oksekød, hæld vand og krydderrier i, kog op og tilsæt ris, lad det små koge i 20 min.', 'Oriental_Rice.png');
@@ -35,4 +34,3 @@ SELECT * FROM Opskrifter ORDER BY navn;
 
 
 SELECT * FROM Ingredienser ORDER BY kalorier_pr_100g DESC;
-´´´
